@@ -60,10 +60,6 @@ body p a{color:rgb(184, 159, 19);}
 .about_page{margin-left: 10px;
 margin-right: 10px}
 
-body .container #background_of_page{background-color: beige;
-width:100%;
-height: 100%;}
-
 /* Start of Temp Visualization css sections */
 
 #template_header{text-align: center;}
@@ -100,22 +96,8 @@ font-size: large;}
   }
 }
 
-nav .col-1 {width: 8.33%;}
-nav #comp {width: 8.33%;}
-nav #data_ {width: 8.33%;}
-nav .col-2 {width: 16.66%;}
 
-@media only screen and (max-width: 768px) {
-        /* For mobile phones: */
-        [class*="col-"] {
-          width: 100%;
-        }
-        [id*="data_"] {
-                width: 100%;
-              left: 125 px;}
-        [id*="comp"] {
-        width: 100%;
-        left: 250px;}}
+        
 /* nav .col-3 {width: 25%;}
 nav .col-4 {width: 33.33%;} */
 
