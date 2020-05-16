@@ -8,37 +8,33 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
-<nav>
-  <!-- <a href="index.html" target="_blank"> -->
-  <div class = "container">
-    <div class="row">
-<!-- Home Page Button -->
-      <div class="col-2">
-        <ul><a href="index.html" target="_blank">Home Page</a></ul>
-      </div>
-      
-<!-- Comparison Button -->
-      <div id="comp">
-        <!-- style="left: 1185px;" -->
-        <ul><a href="comparison.html" target="_blank">Comparison</a></ul>
-      </div>
-<!-- Data Button -->
-      <div id="data_">
-        <ul><a href="data.html" target="_blank">Data</a></ul>
-      </div>      
-      <div class="col-1" style="left: 775px;">         
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Links<span class="caret"></span></button>
-          <ul class="dropdown-menu">
-            <!-- <li><a href="data.html">Data</a></li> -->
-            <li><a href="tempvisualization.html">Temp Visualization</a></li>
-            <li><a href="humidvisualization.html">Humidity Visualization</a></li>
-            <li><a href="cloudvisualization.html">Cloudiness Visualization</a></li>
-            <li><a href="windyvisualization.html">Wind Speed Visualization</a></li>
-      </div>
-    </div>
-  </div>  
+<nav class="navbar navbar-expand-md sticky-top">
+  <ul class="navbar-nav">
+    <li class="navbar-item">
+      <a class="nav-link" href="index.html">Home Page</a>
+    </li>
+  </ul>
+  <div class="col-9"></div>
+  <ul class="navbar-nav navbar-expand-md"> 
+    <li class="navbar-item">
+      <a class="nav-link" href="comparison.html">Comparison</a>
+    </li>
+    <li class="navbar-item">
+      <a class="nav-link" href="data.html">Data</a>
+    </li>
+  </ul>
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Links<span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <!-- <li><a href="data.html">Data</a></li> -->
+      <li><a href="tempvisualization.html">Temp Visualization</a></li>
+      <li><a href="humidvisualization.html">Humidity Visualization</a></li>
+      <li><a href="cloudvisualization.html">Cloudiness Visualization</a></li>
+      <li><a href="windyvisualization.html">Wind Speed Visualization</a></li>
+    </ul>
 </nav>
+
 <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <li><a href="data.html">Data</a></li> -->
     <div class="container">
       <div id="background_of_page">
@@ -51,7 +47,8 @@
     <div class = "container">
       <div class = "row"> 
         <!-- Figure One -->
-        <div class = "col col-6">
+        
+        <div class = "col col-lg-6">
           <div id="container_fig_one">
             <h2 id="lat"><a href="tempvisualization.html">Latitude</a></h2>
             <img src="..\Resources\assets\images\Fig1.png">
@@ -59,7 +56,7 @@
           </div>
         </div>
         <!-- Figure Two -->
-        <div class = "col col-6">
+        <div class = "col col-lg-6">
           <div id="container_fig_two">
             <h2 id="hum"><a href="humvisualization.html">Humidity</a></h2>
             <img src="..\Resources\assets\images\Fig2.png"/>
@@ -73,7 +70,7 @@
     <div class = "container">
       <div class = "row">
         <!-- Figure Three -->
-        <div class = "col col-6">
+        <div class = "col col-lg-6">
           <div id="container_fig_three">
             <h2 id="clou"><a href="cloudvisualization.html">Cloudiness</a></h2>
             <img src="..\Resources\assets\images\Fig3.png"/>
@@ -81,7 +78,7 @@
         </div>
       </div>
         <!-- Figure Four -->
-        <div class = "col col-6">
+        <div class = "col col-lg-6">
           <div id="container_fig_four">
             <h2 id="wind"><a href="windyvisualization.html">Wind Speed</a></h2>
             <img src="..\Resources\assets\images\Fig4.png"/>
