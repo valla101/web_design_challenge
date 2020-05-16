@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+  <title>Header Here</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<nav>
+  <!-- <a href="index.html" target="_blank"> -->
+  <div class = "container">
+    <div class="row">
+<!-- Home Page Button -->
+      <div class="col-2">
+        <ul><a href="index.html" target="_blank">Home Page</a></ul>
+      </div>
+      
+<!-- Comparison Button -->
+      <div id="comp">
+        <!-- style="left: 1185px;" -->
+        <ul><a href="comparison.html" target="_blank">Comparison</a></ul>
+      </div>
+<!-- Data Button -->
+      <div id="data_">
+        <ul><a href="data.html" target="_blank">Data</a></ul>
+      </div>      
+      <div class="col-1" style="left: 775px;">         
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Links<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <!-- <li><a href="data.html">Data</a></li> -->
+            <li><a href="tempvisualization.html">Temp Visualization</a></li>
+            <li><a href="humidvisualization.html">Humidity Visualization</a></li>
+            <li><a href="cloudvisualization.html">Cloudiness Visualization</a></li>
+            <li><a href="windyvisualization.html">Wind Speed Visualization</a></li>
+      </div>
+    </div>
+  </div>  
+</nav>
+<body>
+    <!-- <li><a href="data.html">Data</a></li> -->
+    <div class="container">
+      <div id="background_of_page">
+        <h2 class = "pagetitle">Weather Data & Visualization</h2>
+    <p class="about_page">With easier access to data with the emergence of API's, it has now become easier to gather and visualize datasets. This dataset in particular was generated using Python to query the OpenWeatherMap API. Cities would be generated randomly and the location of these cities were used to pull weather data (Including Temperature, Wind, Humidity, Current Forecast, and more)</p>
+    <br>
+    <p class="about_page">This project was made possible using Weather Data from the <a href = "openweathermap.org/api">OpenWeatherMap API</a>. Check Them Out!</p>
+    <!-- <aside><a href = "openweathermap.org/api">Open Weather Map API</a></aside> -->
+
+    <div class = "container">
+      <div class = "row"> 
+        <!-- Figure One -->
+        <div class = "col col-6">
+          <div id="container_fig_one">
+            <h2 id="lat"><a href="tempvisualization.html">Latitude</a></h2>
+            <img src="..\Resources\assets\images\Fig1.png">
+            <p>This Image represents how Latitude affects the temperature of cities.</p> 
+          </div>
+        </div>
+        <!-- Figure Two -->
+        <div class = "col col-6">
+          <div id="container_fig_two">
+            <h2 id="hum"><a href="humvisualization.html">Humidity</a></h2>
+            <img src="..\Resources\assets\images\Fig2.png"/>
+            <p>This Image represents how Latitude affects the humidity of cities.</p>
+          </div>
+        </div>  
+      </div> 
+    </div>
+    <br>
+    
+    <div class = "container">
+      <div class = "row">
+        <!-- Figure Three -->
+        <div class = "col col-6">
+          <div id="container_fig_three">
+            <h2 id="clou"><a href="cloudvisualization.html">Cloudiness</a></h2>
+            <img src="..\Resources\assets\images\Fig3.png"/>
+            <p>This Image represents how Latitude affects the cloudiness of cities.</p> 
+        </div>
+      </div>
+        <!-- Figure Four -->
+        <div class = "col col-6">
+          <div id="container_fig_four">
+            <h2 id="wind"><a href="windyvisualization.html">Wind Speed</a></h2>
+            <img src="..\Resources\assets\images\Fig4.png"/>
+            <p>This Image represents how Latitude affects the wind speed of cities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+      <!-- <div id="testing_1"></div> -->
+    </div>
+      </div>
+          
+    
+    
+    <!-- <li>"Text"</li>
+    <li>"Next"</li>
+     <a href="html path link"></a>  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,170 @@
+/* Template */
+nav{height: auto;
+background-color: skyblue;
+padding-top: 10px;
+position: relative}
+
+nav .container{margin-left: 0px;
+width: 100%;
+padding-left: 5px;
+padding-right: 5px;}
+
+/* Homepage Link */
+nav .container .row .col-2 ul a{font-size: 22px;
+color: white;
+position:relative;}
+/* Homepage Link Hover */
+nav .container .row .col-2 ul a:hover{color: yellow;}
+/* Comparison Link */
+nav .container .row #comp ul a{font-size: 22px;
+        color: white;
+        position:relative;
+        left: 1185px;}
+nav .container .row #comp ul a:hover{color: yellow;}
+/* Data Link */
+nav .container .row #data_ ul a{font-size: 22px;
+        color: white;
+        position:relative;
+        left: 950px;}
+nav .container .row #data_ ul a:hover{color: yellow;}
+
+/* test */
+nav .container .row .col-2 ul.comp_button{margin-top: 7 px;
+        font-size: 22px;
+        font-style: bold;
+        color: white;
+        position:relative;}
+
+@media (max-width:1000 px;){#data{ left: 200px;}
+/* ID's for sections where figures are contained */
+#lat{text-align: center;}
+
+#hum{text-align: center;}
+
+#clou{text-align: center;}
+
+#wind{text-align: center;}
+
+
+.pagetitle{text-align: center;}
+
+/* Background Color of Body */
+body{background-color:white;}
+/* Background color of any a href links within p */
+body p a{color:rgb(184, 159, 19);}
+
+/* End of index.html css sections */
+
+
+
+.about_page{margin-left: 10px;
+margin-right: 10px}
+
+body .container #background_of_page{background-color: beige;
+width:100%;
+height: 100%;}
+
+/* Start of Temp Visualization css sections */
+
+#template_header{text-align: center;}
+
+body .containertempimg{text-align:center}
+
+body .template_p{text-align:center}
+
+/* Start of Data Css Sections */
+#data_desc{width: 100%;
+margin-top: 10px;
+font-size: large;}
+
+/* body .containertempimg img{text-align:center;} */
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+nav .col-1 {width: 8.33%;}
+nav #comp {width: 8.33%;}
+nav #data_ {width: 8.33%;}
+nav .col-2 {width: 16.66%;}
+
+@media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+        [id*="data_"] {
+                width: 100%;
+              left: 125 px;}
+        [id*="comp"] {
+        width: 100%;
+        left: 250px;}}
+/* nav .col-3 {width: 25%;}
+nav .col-4 {width: 33.33%;} */
+
+
+/* nav .row .col-1 {width: 8.33%;}
+nav .row .col-2 {width: 16.66%;}
+nav .row .col-3 {width: 25%;}
+nav .row .col-4 {width: 33.33%;}
+nav .row .col-5 {width: 41.66%;}
+nav .row .col-6 {width: 50%;}
+nav .row .col-7 {width: 58.33%;}
+nav .row .col-8 {width: 66.66%;}
+nav .row .col-9 {width: 75%;}
+nav .row .col-10 {width: 83.33%;}
+nav .row .col-11 {width: 91.66%;}
+nav .row .col-12 {width: 100%;} */
+
+/* @media only screen and (max-width: 768px) { */
+  /* For mobile phones: */
+  /* [class*="col-"] {
+    width: 100%;
+  } */
+}
+/* Testing */
+
+#container_fig_one{margin-left: 5px;
+float: left;
+clear:both;}
+
+#container_fig_two{float: right;
+clear:both}
+
+#container_fig_three{margin-left: 5px;
+float: left;
+clear:both}
+
+#container_fig_four{float: right;
+clear:both}
+
+#container_fig_one img{max-width: 500px;
+max-height: 500px;}
+
+#container_fig_two img{max-width: 500px;
+max-height: 500px;}
+
+#container_fig_three img{max-width: 500px;
+max-height: 500px;}
+
+#container_fig_four img{max-width: 500px;
+max-height: 500px;}
+
+.table_df{}
